@@ -1,0 +1,105 @@
+
+.contact-block-item{
+    /* border:2px solid white; */
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+
+} 
+.contact-block-item h3{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin: 10px 0px 8px 68px;
+}
+
+.contact-block-item p{
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px 0px 0px 68px;
+}
+.item-icon{
+    font-size: 60px;
+    color: #18d26e !important;
+    border-radius: 40%;
+    padding: 14px;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-container{
+    display: flex;
+    margin-top: 0;
+    margin-left: 5rem;
+    gap: 10px;
+}
+.social-icon{
+    margin: 0%;
+    font-size: 20px;
+}
+.social-icon :hover{
+    color: #00ff88 !important;
+    font-size: 1.5 rem;
+}
+
+.form-button{
+    margin-right: 5%;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #18d26e !important;
+    border: 0 !important;
+    font-weight: 300;
+    color: #fff;
+    box-shadow: none;
+}
+
+
+.custom-form-col input{
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 0%;  
+    height: 3rem;
+    border: 0;
+    
+}
+
+.custom-form-col input::placeholder{
+    color: rgba(255, 255, 255, 0.5);;
+    font-weight: 300;
+}
+.custom-form-col input:focus{
+    color: white;
+    font-weight: 300;
+    background-color:rgba(255, 255, 255, 0.11);
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-form-col-msg input{
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 0%;  
+    height: 8rem;  
+    border: 0;
+}
+.custom-form-col-msg input::placeholder{
+    color: rgba(255, 255, 255, 0.5);;
+    font-weight: 300;
+}
+
+.custom-form-col-msg input:focus {
+    color: white;
+    font-weight: 300;
+    background-color:rgba(255, 255, 255, 0.11);
+    outline: none;  
+    box-shadow: none;
+}
+
+
+
+
+
+
+

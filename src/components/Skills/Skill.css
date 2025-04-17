@@ -1,0 +1,21 @@
+.skill-card{
+    padding: 10px;
+}
+.skill-card-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.custom-progress{
+    height: 10px !important;
+} 
+
+.custom-progress .progress-bar {
+    background-color: #00ff88; 
+    filter: brightness(80%);
+}   
+
+

@@ -1,0 +1,82 @@
+.resume-item{
+    position: relative;
+    padding-left: 30px;
+    margin-top: 0px;
+}
+.resume-item-title{
+    color: #18d26e;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume-item-line{
+    position: absolute;
+    top:5px;
+    left: 10px;
+    width: 2px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 0;
+}
+.resume-card{
+    position: relative;
+}
+.resume-item-dot {
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    width: 15px;
+    height: 15px;
+    background-color: #18d26e;
+    border-radius: 50%;
+    z-index: 1;
+    border: 2px solid #18d26e;
+  }
+
+.resume-item-year{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    font-weight: 500;
+}  
+.resume-item-list{
+    display: block; 
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.resume-item-list >li{
+    display: list-item;
+    line-height: 1.6;             /* space between lines */
+    font-size: 1rem;              /* adjust to match theme */
+}
+.resume-list{
+    list-style-type: disc;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+.resume-list > li{
+    display: list-item;
+    margin-bottom: 0.5rem;
+    margin-left: 2.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.section-titles{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.project-desc{
+    text-indent: 3%;
+    display: block; 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

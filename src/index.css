@@ -1,0 +1,52 @@
+*{
+    font-family:'Open Sans',sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("src/img/lap1.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans';
+    /* color: #ffffff; */
+}
+
+.containers{
+    margin: 10vh;
+    min-width: 80%; 
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.containers-name{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-left: 1%;
+    margin-bottom: 1% ;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(170, 170, 170)
+}
+.containers-line{
+    flex: 1;
+    height: 2px;
+    width: 4px;
+    background-color: #00ff88;
+    margin-left: 5px;
+    margin-right: 80%;
+}
+.containers-heading{
+    margin-top: 0%;
+    margin-left: 1%;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.footers{
+    position: fixed;
+    bottom: 2%;
+    right: 4%;
+}
