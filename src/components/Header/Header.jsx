@@ -14,6 +14,7 @@ function Header() {
     const EducationNav = () => navigate('/education')
     const ContactNav = () => navigate('/contact')
     const ResumeNav = () => navigate('/resume')
+    const HomeNav = () => navigate('/')
   return (
 
     <nav>
@@ -24,7 +25,7 @@ function Header() {
             </div>
             <div className='nav-contents'>
                 <ul className='custom-header-list'>
-                    <li>Home</li>
+                    <li onClick={HomeNav}>Home</li>
                     <li onClick={AboutNav}>About</li>
                     <li onClick={SkillsNav}>Skills</li>
                     <li onClick={EducationNav}>Education</li>
