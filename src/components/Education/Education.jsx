@@ -9,7 +9,7 @@ function Education() {
         {EducationData.map((e,i)=>{
           return(
             <div className='education-card' key={i}>
-              <img src={`/src/img/${e.logo}`} alt='unt-logo' className='education-icon'/>
+              <img src={`/${e.logo}`} alt='unt-logo' className='education-icon'/>
               <h3 className='cards-title'>{e.title}</h3> 
               <div className="education-card-content">
                 <span>{e.startdate} - {e.enddate}</span>
