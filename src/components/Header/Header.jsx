@@ -6,15 +6,15 @@ function Header() {
     const navigate = useNavigate();
     
     function AboutNav(){
-        navigate('/about')
+        navigate('about')
     }
     function SkillsNav(){
-        navigate('/skills')
+        navigate('skills')
     }
-    const EducationNav = () => navigate('/education')
-    const ContactNav = () => navigate('/contact')
-    const ResumeNav = () => navigate('/resume')
-    const HomeNav = () => navigate('/')
+    const EducationNav = () => navigate('education')
+    const ContactNav = () => navigate('contact')
+    const ResumeNav = () => navigate('resume')
+    const HomeNav = () => navigate('')
   return (
 
     <nav>

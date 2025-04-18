@@ -20,12 +20,12 @@ function App() {
     <HiChevronDoubleLeft  />
     </button>
       <Routes>
-        <Route path="/" element={<Header />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path='/education' element={<Education />}/>
-        <Route path='/resume' element={<Resume />}/>
-        <Route path='/contact' element={<Contact/>} />
+        <Route path="" element={<Header />} />
+        <Route path="about" element={<About />} />
+        <Route path="skills" element={<Skills />} />
+        <Route path='education' element={<Education />}/>
+        <Route path='resume' element={<Resume />}/>
+        <Route path='contact' element={<Contact/>} />
       </Routes>
 
       <Footer />  {/* This stays always visible */}
