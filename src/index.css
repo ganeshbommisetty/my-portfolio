@@ -16,7 +16,8 @@ body{
 
 .containers{
     margin: 10vh;
-    min-width: 80%; 
+    min-width: 90%; 
+    margin-top: 0%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.9);
 }
