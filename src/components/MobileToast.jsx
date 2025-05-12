@@ -8,7 +8,8 @@ function MobileToast() {
   useEffect(() => {
     const checkMobilePortrait = () => {
         const isSmallScreen = window.innerWidth <= 980;
-        setShow(isSmallScreen);
+        const isPortrait = window.innerHeight > window.innerWidth;
+        setShow(isSmallScreen && isPortrait);
     };
     console.log("show:",show)
     checkMobilePortrait();
