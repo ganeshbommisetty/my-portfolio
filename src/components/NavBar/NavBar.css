@@ -1,0 +1,116 @@
+/* .nav-tab{
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    padding: 20px !important;
+
+}
+
+  
+} */
+
+.nav-tab {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    padding: 20px !important;
+    position: fixed;        /* ✅ NEW: keep navbar fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* ✅ NEW: space between title and hamburger */
+  }
+  .nav-list .nav-link span{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    cursor: pointer;
+    }
+.nav-list .nav-link span:hover {
+    color: white;
+    border-bottom: 2px solid #18d26e;    
+}
+.custom-burgericon{
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+}
+
+.custom-burgericon .navbar-toggler-icon {
+    background-image: none; /* Remove default icon */
+    width: 1.2rem;
+    height: 1.5rem;
+    color: white;
+  }
+
+.custom-burgericon .navbar-toggler-icon::before,
+.custom-burgericon .navbar-toggler-icon::after,
+.custom-burgericon .navbar-toggler-icon::marker,
+.custom-burgericon .navbar-toggler-icon div {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.customnav-title{
+    font-weight: 800;
+    font-size: 2rem !important;
+    /* margin-left: 15px; */
+    text-transform: uppercase;
+    color: white !important;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 25px;
+      width: 95vw;
+      height: 90vh;
+      background-color: rgba(0, 0, 0, 0.9);
+      z-index: 999;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      box-sizing: border-box;
+  
+      display: flex;
+      justify-content: flex-start;   
+      padding-left: 2rem; 
+      padding-top: 80px;
+      overflow-y: auto;
+    }
+  
+    .nav-list {
+        position: absolute;
+        top: 0;
+        margin-top: 30px;
+    }
+  
+    .nav-list .nav-link {
+      font-size: 1rem;
+      color: white !important;
+      padding: 0.5rem 0;
+      margin-top:2px
+    }
+  
+    .nav-list .nav-link span {
+      color: rgba(255, 255, 255, 0.7);
+      padding-bottom: 2px;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s ease;
+    }
+  
+    .nav-list .nav-link span:hover {
+      color: white;
+      border-bottom: 2px solid #18d26e;
+    }
+    
+  }
+  
